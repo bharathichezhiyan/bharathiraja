@@ -576,7 +576,8 @@ header .image img{
 }
 
 .contact .icons-container .email a{
-    font-size: 15px;
+    font-size: 16px;
+    color: rgb(89, 88, 88);
 }
 
 .contact .icons-container .email h3{
