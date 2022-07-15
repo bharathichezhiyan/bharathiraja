@@ -563,7 +563,7 @@ header .image img{
     border-radius: 50%;
 }
   
-.contact .icons-container .icons a{
+/*.contact .icons-container .icons a{
     height:5rem;
     width:5rem;
     line-height: 5rem;
@@ -571,6 +571,11 @@ header .image img{
     background: var(--main-color);
     color:#fff;
     border-radius: 50%;
+}*/
+
+
+.contact .icons-container ,.icons a{
+    font-size: 15px;
 }
 
 .contact .icons-container .icons h3{
