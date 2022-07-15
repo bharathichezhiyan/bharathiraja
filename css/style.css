@@ -417,7 +417,7 @@ header .image img{
     font-size: 2.5rem;
     padding:.5rem 0;
 }
-.organizers .row-1 .content p{
+.organizers .row-1 .content li{
     color:#666;
     font-size: 17px;
     padding:.5rem 0;
@@ -436,7 +436,7 @@ header .image img{
     padding:.5rem 0;
 }
 
-.research .row-1 .content p{
+.research .row-1 .content li{
     color:#666;
     font-size: 17px;
     padding:.5rem 0;
