@@ -88,7 +88,7 @@ header .navbar a{
     display: block;
     font-size: 2rem;
     color:#fff;
-    margin:2rem 0;
+    margin:1.5rem 0;
 }
 
 header .navbar a:hover{
@@ -210,13 +210,7 @@ header .image img{
 
 
 
-.about .row-1{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-} 
+
 
 
  .about .row-1 .content{
@@ -224,6 +218,16 @@ header .image img{
 }
 
 .about .row-1 .content h3{
+    font-size: 2.5rem;
+}
+
+.about .row-1 .content p{
+    color:#666;
+    font-size: 2rem;
+    padding:.5rem 0;
+}
+
+.about .row-1 .content li{
     color:#666;
     font-size: 1.7rem;
     padding:.5rem 0;
@@ -442,6 +446,24 @@ header .image img{
     padding:.5rem 0;
 }
 
+.co-curricularactivities .row-1 .content h3{
+    color:#666;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.co-curricularactivities .row-1 .content li{
+    color:#666;
+    font-size: 17px;
+    padding:.5rem 0;
+}
+
+
+
+
+
+
+
 .honors .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -519,7 +541,7 @@ header .image img{
 }
 
 .contact .icons-container .icons img{
-    width: 45px;
+    width: 60px;
     padding: auto;
 }
 .contact .icons-container .icons i{
