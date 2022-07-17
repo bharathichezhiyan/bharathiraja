@@ -85,7 +85,7 @@ header .logo span{
 }
 
 header .navbar a{
-    display: block;
+    display: flex;
     font-size: 2rem;
     color:#fff;
     margin:1.5rem 0;
