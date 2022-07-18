@@ -718,7 +718,7 @@ header .image2 img{
 
 
 
-.contact .row{
+/* .contact .row{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
@@ -770,7 +770,7 @@ header .image2 img{
     margin-top: 0;
     margin-bottom: 1.5rem;
 }
-
+ */
 .footer{
     margin-top: 2rem;
     font-size: 2rem;
