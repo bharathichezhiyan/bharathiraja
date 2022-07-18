@@ -634,6 +634,54 @@ header .image2 img{
 }
 
 
+.contact .icons-container .icons1{
+    flex:1 1 25rem;
+    text-align: center;
+    padding:2rem;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contact .icons-container .icons1 img{
+    width: 55px;
+    padding: auto;
+}
+.contact .icons-container .icons1 i{
+    height:5rem;
+    width:5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    /* background: var(--main-color); */
+    color:#fff;
+    border-radius: 50%;
+}
+  
+.contact .icons-container .icons1 a{
+    height:5rem;
+    width:5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    /* background: var(--main-color); */
+    color:#fff;
+    border-radius: 50%;
+}
+
+
+.contact .icons-container .icons1 h3{
+    color:#111;
+    font-size: 2rem;
+    padding:.5rem 0;
+    padding-top: 1rem;
+}
+
+.contact .icons-container .icons1 p{
+    color:#666;
+    font-size: 1.7rem;
+}
+
+
+
 .contact .icons-container .email{
     flex:1 1 25rem;
     text-align: center;
