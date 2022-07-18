@@ -112,6 +112,12 @@ header .image img{
   padding: 5px;
 }
 
+header .image2 img{
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+  }
+
 
 
 
@@ -217,21 +223,37 @@ header .image img{
     flex:1 1 50rem;
 }
 
-.about .row-1 .content h3{
+
+
+.about .row-1 .content p{
+    color:#666;
+    font-size: 1.7rem;
+    padding:.5rem 0;
+}
+
+
+
+.about .row-1 .content1{
+    flex:1 1 50rem;
+}
+
+.about .row-1 .content1 h3{
     font-size: 2.5rem;
 }
 
-.about .row-1 .content p{
+.about .row-1 .content1 p{
     color:#666;
     font-size: 2rem;
     padding:.5rem 0;
 }
 
-.about .row-1 .content li{
+.about .row-1 .content1 li{
     color:#666;
     font-size: 1.7rem;
     padding:.5rem 0;
 }
+
+
  /* .about .row-1 .image{
     flex:1 1 25rem;
 }
@@ -368,6 +390,45 @@ header .image img{
 .teaching assistance .box-container .box .content p{
     font-size: 1.5rem;
     color:#666;
+}
+
+.Supervison .row-1 .content h3{
+    color:#666;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.Supervison .row-1 .content li{
+    color:#666;
+    font-size: 17px;
+    padding:.5rem 0;
+}
+
+.Undergrad .row-1 .content h3{
+    color:#666;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.Undergrad .row-1 .content li{
+    color:#666;
+    font-size: 17px;
+    padding:.5rem 0;
+}
+
+
+
+
+.language .row-1 .content h3{
+    color:#666;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.language .row-1 .content li{
+    color:#666;
+    font-size: 17px;
+    padding:.5rem 0;
 }
 
 
@@ -541,7 +602,7 @@ header .image img{
 }
 
 .contact .icons-container .icons img{
-    width: 60px;
+    width: 55px;
     padding: auto;
 }
 .contact .icons-container .icons i{
