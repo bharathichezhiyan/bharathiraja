@@ -405,7 +405,11 @@ header .image2 img{
 }
 
 
-
+.language .row-1 .content p{
+    color:#666;
+    font-size: 17px;
+    padding:.5rem 0;
+}
 
 .language .row-1 .content h3{
     color:#666;
