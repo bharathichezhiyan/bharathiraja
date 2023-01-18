@@ -109,7 +109,7 @@ header .icon li{
 	display: inline-block;
 	margin: 0 10px;
 	line-height: 50px;
-	margin: 0 -3px;
+	margin: 0 0px;
 }
 header .icon li a{
 	line-height: 50px;
