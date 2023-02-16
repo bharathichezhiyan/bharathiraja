@@ -409,12 +409,13 @@ header .image2 img{
 
 
 .teaching .box-container .box .content span{
-    color:#fff;
-    font-size: 1.7rem;
-    background:var(--main-color);
+    color:#666;
+    font-size: 2.4rem;
+    /* background:var(--main-color); */
  
     border-radius: 50rem;
     padding:.1rem 1rem;
+    font-weight: 500;
    
 }
 
@@ -716,12 +717,13 @@ header .image2 img{
 } */
 
 .experience .box-container  .content span{
-    color:#fff;
-    font-size: 1.7rem;
-    background:var(--main-color);
+    color:#666;
+    font-size: 2.4rem;
+    /* background:var(--main-color); */
  
     border-radius: 50rem;
     padding:.1rem 1rem;
+    font-weight: 500;
    
 }
 
