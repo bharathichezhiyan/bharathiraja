@@ -197,7 +197,7 @@ header .image2 img{
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
-    display: ;
+    
 }
 
 .home .image{
@@ -205,6 +205,7 @@ header .image2 img{
 }
 
 .home .image img{
+    border-radius: 10px;
     width:70%;
 }
 
@@ -299,26 +300,38 @@ header .image2 img{
 
 }
 
-.home .content .contact .email i{
+.home .content .contact .email .title{
+    display: block;
+    
+
+}
+
+.home .content .contact .email .title i{
     height:5rem;
-    width:5rem;
+    width:3rem;
     line-height: 5rem;
     font-size: 2rem;
     color:#e38528;
     border-radius: 50%;
+    padding-left: 0.5rem;
+}
+
+.home .content .contact .email .title h3{
+    color:#111;
+    float: right;
+    font-size: 2rem;
+    padding:.5rem 0;
+    padding-top: 1rem;
+    padding-right: 14rem;
 }
 
 .home .content .contact .email a{
     font-size: 16px;
+    padding-left: 0.5rem;
     color: rgb(89, 88, 88);
 }
 
-.home .content .contact .email h3{
-    color:#111;
-    font-size: 2rem;
-    padding:.5rem 0;
-    padding-top: 1rem;
-}
+
 
 
 
