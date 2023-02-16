@@ -121,17 +121,17 @@ header .icon li a iconify-icon:hover{
 }
 
 
-/* header .follow a{
+header .icon .follow a{
     font-size: 2.5rem;
     color:#fff;
     margin:0 .7rem;
 }
 
-header .follow a:hover{
+header .icon .follow a:hover{
     color:var(--main-color);
 }
 
-header .image img{
+/* header .image img{
   width: 30px;
   height: 30px;
   padding: 5px;
@@ -197,6 +197,7 @@ header .image2 img{
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
+    display: ;
 }
 
 .home .image{
@@ -209,6 +210,7 @@ header .image2 img{
 
 .home .content{
     flex:1 1 40rem;
+    display: block;
 }
 
 .home .content .hi{
@@ -239,6 +241,84 @@ header .image2 img{
     padding:.5rem 0;
 }
 
+.home .content .contact{
+    display: block;
+}
+
+.home .content .contact .heading{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    color: #111;
+    text-transform: uppercase;
+}
+.home .content .contact .heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+
+.home .content .contact .icon{
+	float: left;
+	padding-left: 50px;
+	line-height: 50px;
+	padding-top: 6px;
+    padding: 5px;
+}
+.home .content .contact .icon1 li{
+	display: inline-block;
+	margin: 0 10px;
+	line-height: 50px;
+	margin: 0 0px;
+}
+.home .content .contact .icon1 li a{
+	line-height: 50px;
+
+}
+/* .home .contact .icon1 li a iconify-icon{
+    color: #e38528;
+}*/
+.home .content .contact .icon1 li a iconify-icon:hover{
+	opacity: 0.5;
+} 
+
+
+.home .content .contact .icon .follow a{
+    font-size: 2.5rem;
+    color:#e38528;
+    margin:0 .7rem;
+}
+
+.home .content .contact .icon .follow a:hover{
+    /* color:rgb(2, 2, 2); */
+    opacity: 0.5;
+}
+
+.home .content .contact .email{
+    flex:1 1 25rem;
+    float: left;
+
+}
+
+.home .content .contact .email i{
+    height:5rem;
+    width:5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#e38528;
+    border-radius: 50%;
+}
+
+.home .content .contact .email a{
+    font-size: 16px;
+    color: rgb(89, 88, 88);
+}
+
+.home .content .contact .email h3{
+    color:#111;
+    font-size: 2rem;
+    padding:.5rem 0;
+    padding-top: 1rem;
+}
 
 
 
