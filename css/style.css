@@ -206,7 +206,7 @@ header .image2 img{
 
 .home .image img{
     border-radius: 10px;
-    width:70%;
+    width:30%;
 }
 
 .home .content{
@@ -220,7 +220,7 @@ header .image2 img{
 }
 
 .home .content h3{
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color:#111;
     text-transform: uppercase;
 }
@@ -247,8 +247,8 @@ header .image2 img{
 }
 
 .home .content .contact .heading{
-    font-size: 4rem;
-    padding-bottom: 1rem;
+    font-size: 3rem;
+    /* padding-bottom: 1rem; */
     color: #111;
     text-transform: uppercase;
 }
@@ -321,13 +321,21 @@ header .image2 img{
     float: right;
     font-size: 2rem;
     padding:.5rem 0;
-    padding-top: 1rem;
-    padding-right: 14rem;
+    padding-top: 0rem;
+    padding-right: 31rem;
 }
 
-.home .content .contact .email a{
-    font-size: 16px;
+.home .content .contact .email li{
+    list-style: none;
+    font-size: 18px;
     padding-left: 0.5rem;
+    color:#3c3c3c;
+    font-weight: 800;
+
+
+}
+.home .content .contact .email li a{
+    font-size: 16px;
     color: rgb(89, 88, 88);
 }
 
@@ -570,8 +578,15 @@ header .image2 img{
     color:#666;
     font-size: 17px;
     padding:.5rem 0;
+    list-style: none;
+    
 }
 
+.language .row-1 .content a{
+    color:#1518ab;
+    font-size: 17px;
+    padding:.5rem 0;
+}
 
 /*
 
@@ -1005,5 +1020,6 @@ header .image2 img{
     .experience .box-container .box{
         padding-right: 0;
     }
+    
 
 }
